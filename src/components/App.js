@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/App.css';
 const TypesOfFruit = () => {
-  render(){
   return (
     <div id="typesOfFruits">
       <h2>Fruits:</h2>
@@ -16,7 +15,6 @@ const TypesOfFruit = () => {
 };
 
 const Fruits = () => {
-  render(){
   return (
     <div id="fruits">
       { /* Change code below this line */ }
@@ -25,7 +23,7 @@ const Fruits = () => {
     </div>
   );
 };
-}
+
 const App = () => {
 
   return (
@@ -36,6 +34,5 @@ const App = () => {
       { /* Change code above this line */ }
     </div>
   )
-}
 }
 export default App;
