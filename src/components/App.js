@@ -14,7 +14,7 @@ const TypesOfFruit = () => {
     </div>
   );
 };
-}
+
 const Fruits = () => {
   render(){
   return (
@@ -25,6 +25,7 @@ const Fruits = () => {
     </div>
   );
 };
+}
 const App = () => {
 
   return (
